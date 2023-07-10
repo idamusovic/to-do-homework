@@ -1,0 +1,25 @@
+.container{
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+}
+.row{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: rgb(219, 245, 219);
+}
+input{
+    width: 360px;
+}
+.form-group{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin-right: 3px;
+}
+.btn{
+    margin: 0 2px;
+}
