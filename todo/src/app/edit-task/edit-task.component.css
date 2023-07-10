@@ -6,3 +6,13 @@
     color: white;
     background-color: rgb(48, 48, 165);
 }
+.edit-task{
+    margin: 5px;
+}
+button{
+    margin-left: 5px;
+}
+.btn-outline-danger{
+    border: 1px solid rgb(190, 5, 5);
+    color: rgb(253, 206, 206);
+}

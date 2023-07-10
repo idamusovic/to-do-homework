@@ -22,7 +22,19 @@ input.form-control{
     color: white;
     background-color: rgb(48, 48, 165);
 }
-
+span{
+    font-weight: 400;
+}
 li{
-    list-style: none;
+    list-style: decimal;
+    font-weight: 400;
 } 
+
+.card{
+    border-radius: 10px 10px 0 0;
+}
+.card-header{
+    background-color: rgb(193, 193, 249);
+    border: 1px solid rgb(48, 48, 165);
+    border-radius: 10px 10px 0 0;
+}

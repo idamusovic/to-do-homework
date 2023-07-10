@@ -1,8 +1,9 @@
 
 
    <div class="container">
+    
     <div class="d-flex justify-content-center align-items-center">
-      <div class="card mt-5" style="width: 600px;">
+      <div class="main card mt-5" style="width: 600px;">
         <div class="card-header">
           To-Do List
         </div>
@@ -17,10 +18,10 @@
 
         </div>
 
-        <ul class="list-group justify-content-between">
+        <ol class="list-group justify-content-between">
           <li *ngFor="let task of tasks" class="list-group-item d-flex justify-content-between">
             <label [ngClass]="{'completed': task.isCompleted}">
-              <div class="d-flex justify-content-center">
+              <div>
                 <div>
                     <span class="text-left" [ngClass]="{'completed': task.isCompleted}">{{ task.naziv }}</span>
                 </div>
@@ -40,7 +41,7 @@
               </div>
             </label>
           </li>
-        </ul>
+        </ol>
 
         
         <div class="card">
