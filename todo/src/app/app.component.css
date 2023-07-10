@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+*{
+    font-family: 'Poppins';
+}
 .container{
     padding: 20px;
     margin: 20px;
@@ -23,3 +27,4 @@ input{
 .btn{
     margin: 0 2px;
 }
+

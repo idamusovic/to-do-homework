@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+*{
+    font-family: 'Poppins';
+}
 .completed {
     text-decoration: line-through;
   }
+input.form-control{
+    border-radius: 10px;
+}
+.btn{
+    margin: 5px;
+}
+.card-header{
+    font-size: 30px;
+}
+.add-btn{
+    color: rgb(48, 48, 165);
+    border: 1px solid rgb(48, 48, 165);
+}
+.add-btn:hover{
+    color: white;
+    background-color: rgb(48, 48, 165);
+}
+
+li{
+    list-style: none;
+} 
